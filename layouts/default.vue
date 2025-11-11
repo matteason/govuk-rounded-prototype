@@ -138,6 +138,9 @@ watch(selectedPrimaryButtonPalette, (val) => {
 </template>
 
 <style lang="scss">
+$govuk-assets-path: "/govuk-rounded-prototype/assets/";
+$govuk-new-typography-scale: true;
+
 @import '../node_modules/govuk-frontend/dist/govuk/index';
 :root {
   --radius: 4px;

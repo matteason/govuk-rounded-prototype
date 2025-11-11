@@ -34,7 +34,7 @@ export default defineNuxtConfig({
         targets: [
           {
             src: 'node_modules/govuk-frontend/dist/govuk/assets/*',
-            dest: 'assets'
+            dest: 'govuk-rounded-prototype/assets'
           }
         ]
       })
