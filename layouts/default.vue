@@ -17,9 +17,9 @@ const buttonPalettes = [
     shadow: '#002d18'
   },
   {
-    name: 'Primary green',
+    name: 'New primary green',
     bg: '#11875A',
-    shadow: '#0D6544'
+    shadow: '#08442D'
   },
   {
     name: 'Green Shade 25%',
@@ -27,7 +27,7 @@ const buttonPalettes = [
     shadow: '#09442D'
   },
   {
-    name: 'Primary blue',
+    name: 'New primary blue',
     bg: '#1D70B8',
     shadow: '#16548A'
   },
