@@ -5,16 +5,16 @@
 <template>
   <h1 class="govuk-heading-l">Apply to the juggling startup fund</h1>
   <gv-task-list>
-    <gv-task-list-item href="/example-page" status="Completed">
+    <gv-task-list-item href="#" status="Completed">
       Company Directors
     </gv-task-list-item>
-    <gv-task-list-item href="/example-page">
+    <gv-task-list-item href="#">
       Registered company details
       <template #status>
         <gv-tag colour="light-blue">In progress</gv-tag>
       </template>
     </gv-task-list-item>
-    <gv-task-list-item href="/example-page">
+    <gv-task-list-item href="#">
       Application details
       <template #status>
         <gv-tag>Not yet started</gv-tag>
