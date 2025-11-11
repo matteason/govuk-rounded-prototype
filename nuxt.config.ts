@@ -17,28 +17,23 @@ export default defineNuxtConfig({
         class: 'govuk-template__body js-enabled govuk-frontend-supported'
       },
       meta: [
-        { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' }
       ],
-      link: [{ rel: 'icon', sizes: 'any', href: '/assets/rebrand/images/favicon.ico', type: 'image/svg+xml' }]
+      link: [
+        {
+          rel: 'icon',
+          sizes: 'any',
+          href: '/govuk-rounded-prototype/assets/rebrand/images/favicon.ico',
+          type: 'image/svg+xml'
+        }
+      ]
     }
   },
   modules: ['@pinia/nuxt', 'pinia-plugin-persistedstate/nuxt'],
   vite: {
     resolve: {
-      dedupe: [
-        'vue'
-      ]
+      dedupe: ['vue']
     },
-    plugins: [
-      viteStaticCopy({
-        targets: [
-          {
-            src: 'node_modules/govuk-frontend/dist/govuk/assets/*',
-            dest: 'govuk-rounded-prototype/assets'
-          }
-        ]
-      })
-    ],
     css: {
       preprocessorOptions: {
         scss: {
